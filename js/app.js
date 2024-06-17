@@ -32,6 +32,9 @@ document.addEventListener("DOMContentLoaded", function() {
         spaceBetween: 30,
         slidePerGroup: 4,
         loop: true,
+        autoplay: {
+            delay: 1000,
+          },
         loopFillGroupWithBlank: true,
         pagination: {
             el: ".swiper-pagination",
@@ -64,6 +67,9 @@ document.addEventListener("DOMContentLoaded", function() {
         spaceBetween: 30,
         slidePerGroup: 4,
         loop: true,
+        autoplay: {
+            delay: 1000,
+          },
         loopFillGroupWithBlank: true,
         pagination: {
             el: ".swiper-pagination",
@@ -96,6 +102,7 @@ document.addEventListener("DOMContentLoaded", function() {
         slidesPerView: 4,
         spaceBetween: 30,
         slidePerGroup: 4,
+       
         loop: true,
         loopFillGroupWithBlank: true,
         pagination: {
